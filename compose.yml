@@ -1,0 +1,5 @@
+services:
+  euromillions-api:
+    build: ./src
+    ports:
+      - "3001:3001"
